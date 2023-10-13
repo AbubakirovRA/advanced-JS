@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Отзывы</title>
+</head>
+<body>
+    <div class="reviews">
+        <h1 class="reviews__title">Отзывы</h1>
+        <div class="reviews__input-container">
+            <input type="text" class="reviews__product-input" id="productInput"
+                   placeholder="Название продукта">
+            <textarea class="reviews__input" id="reviewInput"
+                      placeholder="Напишите отзыв (от 50 до 500 символов)"></textarea>
+            <button class="reviews__submit" id="submitReview">Отправить отзыв</button>
+        </div>
+        <div class="reviews__container" id="reviewsContainer">
+            <!-- Отзывы будут добавлены здесь -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

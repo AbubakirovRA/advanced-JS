@@ -1,0 +1,42 @@
+.library {
+    text-align: center;
+    padding: 20px;
+
+    &__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    &__books, &__actions {
+        display: inline-block;
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    &__book-list {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+
+        li {
+            margin: 5px 0;
+        }
+    }
+
+    &__action-buttons {
+        text-align: left;
+    }
+
+    &__add-button, &__remove-button {
+        padding: 10px;
+        margin: 5px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #2980b9;
+        }
+    }
+}

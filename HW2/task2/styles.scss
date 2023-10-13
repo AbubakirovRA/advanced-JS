@@ -1,0 +1,51 @@
+// Общий контейнер для отзывов
+.reviews {
+  text-align: center;
+  padding: 20px;
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    &__submit {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  &__review {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+
+    &__id {
+      font-weight: bold;
+    }
+  }
+}

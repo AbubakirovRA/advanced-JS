@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Библиотека</title>
+</head>
+<body>
+    <div class="library">
+        <h1 class="library__title">Библиотека</h1>
+        <div class="library__books">
+            <h2>Книги</h2>
+            <ul class="library__book-list" id="bookList">
+                <!-- Здесь отобразиться список книг -->
+            </ul>
+        </div>
+        <div class="library__actions">
+            <h2>Действия</h2>
+            <div class="library__action-buttons">
+                <input type="text" id="bookTitle" placeholder="Enter book title">
+                <button class="library__add-button" id="addBookButton">Добавить книгу</button>
+                <button class="library__remove-button" id="removeBookButton">Удалить книгу</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
