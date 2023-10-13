@@ -1,0 +1,23 @@
+.music-collection {
+    &__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__album {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+
+        &:hover {
+            background-color: #e0e0e0;
+        }
+    }
+}
