@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.app-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.photo-card {
+    &__image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    &__image {
+        max-width: 400px; /* Максимальная ширина блока с изображением */
+        max-height: 800px; /* Максимальная высота блока с изображением */
+    }
+
+    &__info {
+        margin-top: 20px;
+    }
+
+    &__photographer {
+        font-size: 16px;
+    }
+
+    &__like-button, &__next-button, &__history-button {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    &__like-count {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__history-container {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__history-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+
+        &__image {
+            max-width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        &__photographer {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+}

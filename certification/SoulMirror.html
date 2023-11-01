@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulMirror - Фотография души</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="app-title">SoulMirror</h1>
+    <div class="photo-card moment-snapshotter">
+        <img class="photo-card__image" id="image" src="" alt="Unsplash Photo">
+        <div class="photo-card__info">
+            <p class="photo-card__photographer" id="photographer">Photographer: </p>
+            <button class="photo-card__like-button" id="likeButton">Like</button>
+            <span class="photo-card__like-count" id="likeCount">0</span>
+        </div>
+        <button class="photo-card__next-button" id="nextButton">Следующее изображение</button>
+        <button class="photo-card__history-button" id="showHistoryButton">Показать историю</button>
+        <div id="historyContainer" class="history-container">
+            <!-- Здесь будут фотографии из истории -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
